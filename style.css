@@ -15,21 +15,21 @@ nav {
 nav h1{
     margin: 0;
 }
-nav a{
+nav a {
     color: #ffff;
     text-decoration: none;
     background: #36cca2;
     padding: 10px;
     border-radius: 10px;
 }
-form{
+form {
     max-width: 500px;
 }
 input, textarea{
     display: block;
     margin: 16px 0;
     padding: 6px 10px;
-    width: 10%;
+    width: 100%;
     border: 1px solid #ddd;
     font-family: 'Roboto';
 }
