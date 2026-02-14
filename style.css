@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background: #eee;
+    font-family: 'Roboto';
+    color: #444;
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 nav h1{
     margin: 0;
 }
