@@ -1,0 +1,30 @@
+{
+    "posts":[
+        {
+            "id": 1,
+            "title": "Welcome to the New Blog",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iure quos enim cum, quo voluptas maxime nam unde minima aperiam fugit quasi molestias, et tenetur, architecto voluptatem quod voluptatum mollitia.",
+            "likes": 10
+        },
+                {
+            "id": 2,
+            "title": "How to Code in 2026",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iure quos enim cum, quo voluptas maxime nam unde minima aperiam fugit quasi molestias, et tenetur, architecto voluptatem quod voluptatum mollitia.",
+            "likes": 5
+        },
+                {
+            "id": 3,
+            "title": "Basic HTML, CSS and Javascript",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iure quos enim cum, quo voluptas maxime nam unde minima aperiam fugit quasi molestias, et tenetur, architecto voluptatem quod voluptatum mollitia.",
+            "likes": 15
+        }
+    ],
+    "polls": [
+        {
+            "id": 1,
+            "question": "Do you prefer Bootstrap or Tailwind CSS?",
+            "answerA": "Bootstrap",
+            "answerB": "Tailwind"
+        }
+    ]
+}
