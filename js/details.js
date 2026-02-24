@@ -1,5 +1,6 @@
-const container = document.querySelector('.details')
 const id = new URLSearchParams(window.location.search).get('id')
+const container = document.querySelector('.details')
+const deleteBtn = document.querySelector('.delete')
 
 const renderDetails = async () => {
     const res = await fetch('http://localhost:3000/posts/' + id)
@@ -13,7 +14,13 @@ const renderDetails = async () => {
             <p>${posts.body}</p>
         </div>
     `
-
     container.innerHTML = card
 }
+
+deleteBtn.addEventListener('click', async () => {
+    const res = await fetch('http://localhost:3000/posts' + id, {
+        method: 'DELETE'
+    })
+    window.location.replace('/index.html')
+})
 window.addEventListener('DOMContentLoaded', () => renderDetails())

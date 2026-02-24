@@ -11,7 +11,7 @@ const createPost = async (e) => {
     await fetch('http://localhost:3000/posts', {
         method: 'POST',
         body: JSON.stringify(newPost),
-        headers:{'Content-Type': 'applicaiont/json'}
+        headers:{'Content-Type': 'application/json'}
 
     })
     window.location.replace('/index.html')
