@@ -1,15 +1,24 @@
 {
   "posts": [
-    { "id": 1, "title": "Welcome to Json Server", "body": "This is just the beginning", "likes": 23 },
-    { "id": 2, "title": "Learn to code in 2026", "body": "Coding is the only language we speak in tech", "likes": 10 },
-    { "id": 3, "title": "February", "body": "Full of love and crazy stuff", "likes": 3 }
+    {
+      "id": "32f0",
+      "title": "Json Server",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus incidunt eos illum aspernatur, voluptate modi rerum adipisci ipsa molestiae odit dolor deserunt, placeat hic libero magni eum quidem culpa unde.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus incidunt eos illum aspernatur, voluptate modi rerum adipisci ipsa molestiae odit dolor deserunt, placeat hic libero magni eum quidem culpa unde.\n",
+      "likes": 0
+    },
+    {
+      "id": "f3d2",
+      "title": "Welcome",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus incidunt eos illum aspernatur, voluptate modi rerum adipisci ipsa molestiae odit dolor deserunt, placeat hic libero magni eum quidem culpa unde.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus incidunt eos illum aspernatur, voluptate modi rerum adipisci ipsa molestiae odit dolor deserunt, placeat hic libero magni eum quidem culpa unde.\n",
+      "likes": 0
+    }
   ],
   "polls": [
-        {
-            "id": 1,
-            "question": "Do you prefer Bootstrap or Tailwind CSS?",
-            "answerA": "Bootstrap",
-            "answerB": "Tailwind"
-        }
-    ]
+    {
+      "id": "1",
+      "question": "Do you prefer Bootstrap or Tailwind CSS?",
+      "answerA": "Bootstrap",
+      "answerB": "Tailwind"
+    }
+  ]
 }
