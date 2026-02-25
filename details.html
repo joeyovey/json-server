@@ -3,15 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
-    <title>JSON Server</title>
+    <title>Blog Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="details">
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+    <div class="bg-white shadow-lg rounded-xl p-8 w-full max-w-2xl">
+
+        <!-- Back link -->
+        <a href="/index.html" class="text-blue-600 hover:underline text-sm">
+            ← Back to blogs
+        </a>
+
+        <!-- Post content -->
+        <div class="details mt-4 space-y-4">
+            <!-- JS will inject post here -->
+        </div>
+
+        <!-- Action buttons -->
+        <div class="flex justify-between items-center mt-6">
+
+            <a href="#" id="editLink"
+               class="text-green-600 hover:underline">
+               Edit
+            </a>
+
+            <button class="delete bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition">
+                Delete
+            </button>
+
+        </div>
 
     </div>
-    <button class="delete">Delete</button>
 
     <script src="js/details.js"></script>
 </body>
